@@ -56,7 +56,8 @@ namespace TcpSlave
             Connect = false;
             if (socketclient != null)
                 socketclient.Close();
-            socket.Close();
+            if (socket != null)
+                socket.Close();
             if (tAccept != null && tAccept.IsAlive)
                 tAccept.Abort();
         }
@@ -108,7 +109,7 @@ namespace TcpSlave
             }
             catch (Exception eDisconnect) // 客户端断开连接
             {
-                if (eDisconnect.Message != "正在中止线程。" )
+                if (eDisconnect.Message != "正在中止线程。")
                     MessageBox.Show(eDisconnect.Message);
                 Connect = false;
                 if (socketclient != null)

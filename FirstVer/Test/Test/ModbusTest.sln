@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusUnitTest", "UnitTestTcp\ModbusUnitTest.csproj", "{9A228198-8C01-4FE3-986E-23DDABC66744}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF6618EE-7F45-4C3A-8780-998800199BC8} = {AF6618EE-7F45-4C3A-8780-998800199BC8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusFunc", "Test\ModbusFunc.csproj", "{AF6618EE-7F45-4C3A-8780-998800199BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A228198-8C01-4FE3-986E-23DDABC66744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A228198-8C01-4FE3-986E-23DDABC66744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A228198-8C01-4FE3-986E-23DDABC66744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A228198-8C01-4FE3-986E-23DDABC66744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6618EE-7F45-4C3A-8780-998800199BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6618EE-7F45-4C3A-8780-998800199BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6618EE-7F45-4C3A-8780-998800199BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6618EE-7F45-4C3A-8780-998800199BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09B7FCC4-4F5A-4210-B3DB-977A1BCC62F9}
+	EndGlobalSection
+EndGlobal
